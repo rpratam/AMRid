@@ -12,7 +12,8 @@ Before start working with conda, the bioconda channel need to be set up. Open ne
 3. Create new environment specific for Illumina and ont sequencing reads analysis
  a. for illumina reads processing pipeline, execute command below: 
 ```conda create -n illumina falco fastp seqkit csvtk spades shovill abricate hamronization mlst checkm-genome quast prokka bakta multiqc```
- the command above will create new conda environment named ‘illumina’ that contain tools:
+
+the command above will create new conda environment named ‘illumina’ that contain tools:
 Raw reads QC and filtering: falco, seqkit and fastp
 assembly: spades and shovill
 assembly evaluation: quast and checkm
@@ -22,7 +23,8 @@ antimicrobial screening: abricate
 
  b. for oxford nanopore technologies pipeline, execute the command below:
 ```conda create -n ont nanoplot seqkit csvtk flye abricate mlst hamronization checkm-genome quast prokka bakta multiqc```
- the command above will create new conda environment named ‘ont’ that contain tools:
+
+the command above will create new conda environment named ‘ont’ that contain tools:
 Raw reads QC: nanoplot and seqkit
 assembly: flye
 assembly evaluation: quast and checkm
@@ -32,12 +34,14 @@ antimicrobial screening: abricate
 
 4. Prepare raw reads for each platform analysis
   public raw reads from study PRJNA315192 will be used in this pipeline. to download them, fetch and run script:
-- Illumina: illumina_raw_downloads.sh (965 B)
-- Nanopore: nanopore_raw_downloads.sh (802 B)
+- Illumina: illumina_raw_downloads.sh
+- Nanopore: nanopore_raw_downloads.sh
+
 it is advised to create separate folder for testing illumina and nanopore pipeline, then put each of the script above to respective folder.
 
 5. Testing analysis pipeline for each platform
 Running pipeline analysis for Illumina raw reads as well nanopore raw reads is simply to execute one script below:
-- Illumina: illumina_bacterial_pipeline_v1.sh (6.56 kB)
-- Nanopore: nanopore_bacterial_pipeline_v1.sh (6.02 kB)
+- Illumina: illumina_bacterial_pipeline_v1.sh
+- Nanopore: nanopore_bacterial_pipeline_v1.sh
+
 Put the script above in the same folder where you put the script to download raw reads above, for Illumina and Nanopore respectively.
