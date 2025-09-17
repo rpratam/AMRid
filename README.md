@@ -1,4 +1,5 @@
-Preparing script for testing WGS pipeline
+<h1>Pipeline for testing bacterial AMR screening pipeline</h1>
+
 <h3>1. Miniconda installation</h3>
 Follow tutorial below for different OS
 
