@@ -1,0 +1,3 @@
+Pipeline completed on Wed Sep 17 09:37:50 AM WIB 2025
+Total samples: 3
+Log file: Bacterial_Nanopore_WGS.log

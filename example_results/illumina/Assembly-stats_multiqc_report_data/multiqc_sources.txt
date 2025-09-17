@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+QUAST	all_sections	SRR7286262_contigs	/home/randi/Analysis/AMRid/illumina/assembly_stat/SRR7286262/report.tsv
+QUAST	all_sections	SRR3742286_contigs	/home/randi/Analysis/AMRid/illumina/assembly_stat/SRR3742286/report.tsv
+QUAST	all_sections	SRR4178797_contigs	/home/randi/Analysis/AMRid/illumina/assembly_stat/SRR4178797/report.tsv

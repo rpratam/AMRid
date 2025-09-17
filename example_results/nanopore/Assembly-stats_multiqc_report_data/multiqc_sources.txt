@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+QUAST	all_sections	SRR24451070	/home/randi/Analysis/AMRid/nanopore/assembly_stat/SRR24451070/report.tsv
+QUAST	all_sections	SRR9987849	/home/randi/Analysis/AMRid/nanopore/assembly_stat/SRR9987849/report.tsv
+QUAST	all_sections	SRR17645345	/home/randi/Analysis/AMRid/nanopore/assembly_stat/SRR17645345/report.tsv

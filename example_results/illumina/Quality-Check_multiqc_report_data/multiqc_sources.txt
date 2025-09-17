@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+fastp	all_sections	SRR3742286_fastp	/home/randi/Analysis/AMRid/illumina/QC/SRR3742286_fastp.json
+fastp	all_sections	SRR4178797_fastp	/home/randi/Analysis/AMRid/illumina/QC/SRR4178797_fastp.json
+fastp	all_sections	SRR7286262_fastp	/home/randi/Analysis/AMRid/illumina/QC/SRR7286262_fastp.json

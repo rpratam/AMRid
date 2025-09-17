@@ -1,0 +1,3 @@
+SRR3742286_contigs.fa	ecoli_achtman_4	11	adk(12)	fumC(12)	gyrB(8)	icd(12)	mdh(15)	purA(2)	recA(2)
+SRR4178797_contigs.fa	ecoli_achtman_4	11	adk(12)	fumC(12)	gyrB(8)	icd(12)	mdh(15)	purA(2)	recA(2)
+SRR7286262_contigs.fa	ecoli_achtman_4	357	adk(13)	fumC(40)	gyrB(13)	icd(13)	mdh(23)	purA(25)	recA(66)

@@ -1,0 +1,4 @@
+Bin Id	Marker lineage	# genomes	# markers	# marker sets	0	1	2	3	4	5+	Completeness	Contamination	Strain heterogeneity
+SRR17645345	f__Enterobacteriaceae (UID5124)	134	1173	336	113	1052	7	1	0	0	91.00	0.53	10.00
+SRR24451070	f__Enterobacteriaceae (UID5124)	134	1173	336	80	1083	10	0	0	0	93.13	0.70	0.00
+SRR9987849	f__Enterobacteriaceae (UID5124)	134	1171	335	221	939	11	0	0	0	80.09	0.63	0.00

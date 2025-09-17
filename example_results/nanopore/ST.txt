@@ -1,0 +1,3 @@
+SRR17645345.fasta	ecoli_achtman_4	-	adk(1570?)	fumC(58?)	gyrB(54?)	icd(54)	mdh(923?)	purA(2)	recA(~47)
+SRR24451070.fasta	ecoli_achtman_4	-	adk(12)	fumC(12)	gyrB(1217?)	icd(1624?)	mdh(15)	purA(2)	recA(2)
+SRR9987849.fasta	ecoli_achtman_4	-	adk(12?)	fumC(1403?)	gyrB(1217?)	icd(~686)	mdh(~15)	purA(~950)	recA(671?)

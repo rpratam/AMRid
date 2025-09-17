@@ -1,0 +1,6 @@
+[2025-09-17 09:27:10,029] multiqc.core.update_config                         [INFO   ]  Report title: Assembly stats
+[2025-09-17 09:27:15,693] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.31 now available!
+[2025-09-17 09:27:15,694] multiqc.core.file_search                           [INFO   ]  Search path: /home/randi/Analysis/AMRid/nanopore/assembly_stat
+[2025-09-17 09:27:15,695] multiqc.core.file_search                           [INFO   ]  Only using modules: quast
+[2025-09-17 09:27:15,705] multiqc.modules.quast.quast                        [INFO   ]  Found 3 reports
+[2025-09-17 09:27:15,746] multiqc.core.file_search                           [INFO   ]  Only using modules: quast

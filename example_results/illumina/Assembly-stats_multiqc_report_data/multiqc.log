@@ -1,0 +1,52 @@
+[2025-09-17 00:43:41,781] root                                               [DEBUG  ]  Logging to file: /tmp/tmpai5stt16/multiqc.log
+[2025-09-17 00:43:41,782] multiqc.core.update_config                         [DEBUG  ]  This is MultiQC v1.30
+[2025-09-17 00:43:41,782] multiqc.core.update_config                         [DEBUG  ]  Running Python 3.11.9 | packaged by conda-forge | (main, Apr 19 2024, 18:36:13) [GCC 12.3.0]
+[2025-09-17 00:43:41,782] multiqc.core.update_config                         [INFO   ]  Report title: Assembly stats
+[2025-09-17 00:43:41,783] urllib3.connectionpool                             [DEBUG  ]  Starting new HTTPS connection (1): api.multiqc.info:443
+[2025-09-17 00:43:42,557] urllib3.connectionpool                             [DEBUG  ]  https://api.multiqc.info:443 "GET /version?version_multiqc=1.30&version_python=3.11.9&operating_system=Linux&is_docker=False&is_singularity=False&is_conda=True&is_ci=False&is_notebook=False&ai_summary=False&ai_summary_full=False HTTP/1.1" 200 178
+[2025-09-17 00:43:42,558] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.31 now available!
+[2025-09-17 00:43:42,558] multiqc.core.version_check                         [DEBUG  ]  Latest MultiQC version is v1.31, released 2025-09-05
+[2025-09-17 00:43:42,559] multiqc.multiqc                                    [DEBUG  ]  Working dir : /home/randi/Analysis/AMRid/illumina
+[2025-09-17 00:43:42,559] multiqc.multiqc                                    [DEBUG  ]  Template    : default
+[2025-09-17 00:43:42,559] multiqc.multiqc                                    [DEBUG  ]  Command used: /home/randi/conda/envs/illumina/bin/multiqc --outdir assembly_stat -m quast -f -i Assembly stats --interactive assembly_stat/
+[2025-09-17 00:43:42,559] multiqc.core.file_search                           [INFO   ]  Search path: /home/randi/Analysis/AMRid/illumina/assembly_stat
+[2025-09-17 00:43:42,560] multiqc.core.file_search                           [INFO   ]  Only using modules: quast
+[2025-09-17 00:43:42,560] multiqc.core.file_search                           [DEBUG  ]  Analysing modules: quast
+[2025-09-17 00:43:42,560] multiqc.core.file_search                           [DEBUG  ]  Search keys: multiqc_data, quast, software_versions
+[2025-09-17 00:43:42,561] multiqc.report                                     [DEBUG  ]  Ignored 360 search patterns that didn't match running modules
+[2025-09-17 00:43:42,568] multiqc.report                                     [DEBUG  ]  Summary of files that were skipped by the search: |skipped_no_match: 39|, |skipped_directory_fn_ignore_dirs: 3|
+[2025-09-17 00:43:42,570] multiqc.core.exec_modules                          [DEBUG  ]  Running module: quast
+[2025-09-17 00:43:42,572] multiqc.modules.quast.quast                        [INFO   ]  Found 3 reports
+[2025-09-17 00:43:42,573] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_quast.txt
+[2025-09-17 00:43:42,573] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_quast.json
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key 'N75' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key 'L75' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key '# misassemblies' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key '# mismatches per 100 kbp' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key '# indels per 100 kbp' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key 'ANI (%)' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key '# genes' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key '# genes_partial' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key '# predicted genes (unique)' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,573] multiqc.plots.table_object                         [DEBUG  ]  Table key 'Genome fraction (%)' not found in data for 'quast_table'. Skipping. Check for possible typos between data keys and header keys
+[2025-09-17 00:43:42,574] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for quast_table: found old_data = False
+[2025-09-17 00:43:42,574] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for quast_table: no old data or empty, using new data only
+[2025-09-17 00:43:42,594] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for quast_num_contigs: found old_data = False
+[2025-09-17 00:43:42,594] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for quast_num_contigs: no old data or empty, using new data only
+[2025-09-17 00:43:42,606] multiqc.base_module                                [DEBUG  ]  quast: deleting attribute self.quast_data
+[2025-09-17 00:43:42,606] multiqc.core.software_versions                     [DEBUG  ]  Reading software versions from config.software_versions
+[2025-09-17 00:43:42,606] multiqc.core.file_search                           [INFO   ]  Only using modules: quast
+[2025-09-17 00:43:42,606] multiqc.core.write_results                         [DEBUG  ]  Rendering plots
+[2025-09-17 00:43:42,609] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for general_stats_table: found old_data = False
+[2025-09-17 00:43:42,609] multiqc.plots.plot                                 [DEBUG  ]  merge_with_previous for general_stats_table: no old data or empty, using new data only
+[2025-09-17 00:43:42,623] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.txt
+[2025-09-17 00:43:42,623] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.json
+[2025-09-17 00:43:42,623] multiqc.core.ai                                    [DEBUG  ]  Saved AI prompt to multiqc_data/llms-full.txt
+[2025-09-17 00:43:42,624] multiqc.core.write_results                         [DEBUG  ]  Exporting plot data to files
+[2025-09-17 00:43:42,624] multiqc.report                                     [DEBUG  ]  Wrote data file quast_table.txt
+[2025-09-17 00:43:42,624] multiqc.report                                     [DEBUG  ]  Wrote data file quast_num_contigs.txt
+[2025-09-17 00:43:42,624] multiqc.core.write_results                         [DEBUG  ]  Moving data file from '/tmp/tmpai5stt16/multiqc_data' to '/home/randi/Analysis/AMRid/illumina/assembly_stat/Assembly-stats_multiqc_report_data'
+[2025-09-17 00:43:42,640] multiqc.core.write_results                         [INFO   ]  Data        : assembly_stat/Assembly-stats_multiqc_report_data
+[2025-09-17 00:43:42,655] multiqc.core.write_results                         [DEBUG  ]  Compressing plot data
+[2025-09-17 00:43:42,749] multiqc.core.write_results                         [INFO   ]  Report      : assembly_stat/Assembly-stats_multiqc_report.html
+[2025-09-17 00:43:42,749] multiqc.core.write_results                         [DEBUG  ]  Report HTML written to /home/randi/Analysis/AMRid/illumina/assembly_stat/Assembly-stats_multiqc_report.html
