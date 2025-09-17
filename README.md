@@ -11,7 +11,9 @@ Before start working with conda, the bioconda channel need to be set up. Open ne
 
 3. Create new environment specific for Illumina and ont sequencing reads analysis
  a. for illumina reads processing pipeline, execute command below: 
-```conda create -n illumina falco fastp seqkit csvtk spades shovill abricate hamronization mlst checkm-genome quast prokka bakta multiqc```
+```
+conda create -n illumina falco fastp seqkit csvtk spades shovill abricate hamronization mlst checkm-genome quast prokka bakta multiqc
+```
 
 the command above will create new conda environment named ‘illumina’ that contain tools:
 Raw reads QC and filtering: falco, seqkit and fastp
