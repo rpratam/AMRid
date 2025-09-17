@@ -9,16 +9,20 @@ b. for MacOS: https://docs.conda.io/projects/conda/en/stable/user-guide/install/
  
 <h3>2. Setup bioconda channel</h3>
 Before start working with conda, the bioconda channel need to be set up. Open new terminal after installing miniconda, then input these commands:
+
 ```
 conda config --add channels bioconda
 conda config --add channels conda-forge
 ```
+
 <h3>3. Create new environment specific for Illumina and ont sequencing reads analysis</h3>
 
 a. for illumina reads processing pipeline, execute command below: 
+
 ```
 conda create -n illumina falco fastp seqkit csvtk spades shovill abricate hamronization mlst checkm-genome quast prokka bakta multiqc
 ```
+
 the command above will create new conda environment named ‘illumina’ that contain tools:
 - raw reads QC and filtering: *falco*, *seqkit* and *fastp*
 - assembly: *spades* and *shovill*
@@ -28,9 +32,11 @@ the command above will create new conda environment named ‘illumina’ that co
 - antimicrobial screening: *abricate*
 
 b. for oxford nanopore technologies pipeline, execute the command below:
+
 ```
 conda create -n ont nanoplot seqkit csvtk flye abricate mlst hamronization checkm-genome quast prokka bakta multiqc
 ```
+
 the command above will create new conda environment named ‘ont’ that contain tools:
 - raw reads QC: *nanoplot* and *seqkit*
 - assembly: *flye*
