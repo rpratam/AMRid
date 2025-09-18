@@ -40,6 +40,7 @@ the command above will create new conda environment named ‘ont’ that contain
 
 4. Prepare raw reads for each platform analysis
   public raw reads from study PRJNA315192 will be used in this pipeline. to download them, fetch and run script:
+  
 - Illumina: illumina_raw_downloads.sh
 - Nanopore: nanopore_raw_downloads.sh
 
