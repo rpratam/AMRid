@@ -40,7 +40,7 @@ the command above will create new conda environment named ‘ont’ that contain
 
 4. Prepare raw reads for each platform analysis
   public raw reads from study PRJNA315192 will be used in this pipeline. to download them, fetch and run script:
-  
+
 - Illumina: illumina_raw_downloads.sh
 - Nanopore: nanopore_raw_downloads.sh
 
@@ -48,6 +48,7 @@ it is advised to create separate folder for testing illumina and nanopore pipeli
 
 5. Testing analysis pipeline for each platform
 Running pipeline analysis for Illumina raw reads as well nanopore raw reads is simply to execute one script below:
+
 - Illumina: illumina_bacterial_pipeline_v1.sh
 - Nanopore: nanopore_bacterial_pipeline_v1.sh
 
